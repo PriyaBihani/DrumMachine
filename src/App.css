@@ -1,0 +1,115 @@
+.App {
+    width: 800px;
+    margin: auto;
+    display: block;
+}
+
+body {
+    background: #111;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: .4em;
+}
+
+.btn {
+    width: 33%;
+    height: 150px;
+    background: red;
+    float: left;
+    margin-left: 2px;
+    font-size: 42px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3em;
+    cursor: pointer;
+    color: #fff !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2px;
+}
+
+.btn:active {
+    background: #606c88;
+}
+
+#drum-machine {
+    /* background: #eeeeee; */
+}
+
+#display {
+    height: 10vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background: #fdfdfd;
+    color: #111;
+    border-radius: 10px;
+}
+
+audio {
+    display: none !important;
+}
+
+.btn:nth-child(1) {
+    background: #8390FA !important;
+}
+
+.btn:nth-child(2) {
+    background: #3A0CA3 !important;
+}
+
+.btn:nth-child(3) {
+    background: #F72585 !important;
+}
+
+.btn:nth-child(4) {
+    background: #ACFCD9 !important;
+}
+
+.btn:nth-child(5) {
+    background: #72DDF7 !important;
+}
+
+.btn:nth-child(6) {
+    background: #8A4FFF !important;
+}
+
+.btn:nth-child(7) {
+    background: greenyellow !important;
+}
+
+.btn:nth-child(8) {
+    background: #EF3054 !important;
+}
+
+.btn.press {
+    opacity: 0.7;
+}
+
+footer {
+    padding-top: 50px !important;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #72DDF7;
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: lightgreen;
+    transition: 0.3s ease;
+}
+
+footer a:hover {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: greenyellow;
+}
